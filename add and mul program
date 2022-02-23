@@ -1,0 +1,17 @@
+class Main{
+    public void add(int a,int b){
+        int c=a+b;
+        System.out.println(c);
+    
+}
+    public double mul(double i,double j)
+{
+        double k=i*j;
+        return k;
+	public static void main(String[] args) {
+	    Main x = new Main();
+	    x.add(30,40);
+	    System.out.println(x.mul(5,10));
+	}
+
+}
